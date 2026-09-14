@@ -3,6 +3,8 @@ message: "If you use PyMEB, please cite the accompanying paper."
 title: "PyMEB: ripALM solvers for minimum enclosing ball problems"
 type: software
 version: 0.1.0
+license: MIT
+repository-code: "https://github.com/liangling98/pymeb-mp-ripALM"
 date-released: 2026-09-13
 authors:
   - family-names: Liang
@@ -22,4 +24,3 @@ preferred-citation:
       given-names: Ling
     - family-names: Yang
       given-names: Lei
-

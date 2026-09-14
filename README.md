@@ -1,4 +1,7 @@
-# PyMEB
+# PyMEB: ripALM and mp-ripALM
+
+[![Tests](https://github.com/liangling98/pymeb-mp-ripALM/actions/workflows/tests.yml/badge.svg)](https://github.com/liangling98/pymeb-mp-ripALM/actions/workflows/tests.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 PyMEB computes a minimum enclosing ball for a collection of points or balls.
 It provides the high-accuracy ripALM solver and the paper's two-stage
@@ -13,14 +16,20 @@ requested tolerance is reinserted and the reduced problem is solved again.
 ## Install
 
 PyMEB requires Python 3.10 or newer and PyTorch 2.2 or newer.
+Clone the repository and install the package from its root directory:
 
 ```bash
+git clone https://github.com/liangling98/pymeb-mp-ripALM.git
+cd pymeb-mp-ripALM
 python -m venv .venv
 # Linux/macOS: source .venv/bin/activate
 # Windows: .venv\Scripts\activate
 python -m pip install --upgrade pip
 python -m pip install -e .
 ```
+
+The repository is private, so cloning requires a GitHub account with access.
+The distribution is named `pymeb-ripalm`; import it in Python as `pymeb`.
 
 Install the additional packages needed for tests or paper experiments with:
 
@@ -137,10 +146,10 @@ If this code supports your work, please cite:
 > Ling Liang and Lei Yang. *Mixed-Precision GPU Acceleration for Large-Scale
 > Minimum Enclosing Ball Problems*. 2026.
 
-A machine-readable record is provided in `CITATION.cff`.
+A machine-readable record is provided in [CITATION.cff](CITATION.cff).
 
 ## License
 
-No open-source license has been selected yet. The authors should add the
-intended license before publishing this repository; without one, normal
-copyright restrictions apply.
+PyMEB is licensed under the [MIT License](LICENSE).
+
+Copyright (c) 2026 Ling Liang and Lei Yang.
