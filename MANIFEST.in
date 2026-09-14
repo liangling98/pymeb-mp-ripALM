@@ -1,0 +1,8 @@
+include CITATION.cff
+recursive-include docs *.md
+recursive-include examples *.py
+recursive-include tests *.py
+include experiments/*.py
+include experiments/*.md
+include experiments/requirements-paper.txt
+recursive-include experiments/results/paper *.md *.json *.csv *.txt

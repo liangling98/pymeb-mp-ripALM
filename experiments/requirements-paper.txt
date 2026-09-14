@@ -1,0 +1,13 @@
+# Versions installed when the archived paper records were generated.
+# Install the CUDA 12.6 builds of torch/torchvision from pytorch.org when
+# reproducing GPU timings; the default package index may select a CPU build.
+torch==2.6.0
+torchvision==0.21.0
+numpy==2.1.2
+pandas==2.2.3
+pyarrow==19.0.1
+requests==2.32.3
+Pillow==11.1.0
+huggingface-hub==0.29.3
+matplotlib==3.10.1
+

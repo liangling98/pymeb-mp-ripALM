@@ -1,0 +1,53 @@
+constraint_dominated: ripALM d=20 m=100000 peak=386.0 MiB
+event                                           self CUDA ms  total CUDA ms  count
+aten::_local_scalar_dense                            59.182         59.182    243
+aten::mul                                            35.763         35.763   2605
+aten::div                                            30.040         30.040    791
+aten::nonzero                                        23.432         24.300    105
+aten::sum                                            20.212         22.368   1017
+aten::where                                          19.799         20.861    412
+aten::sub                                            16.799         16.799    940
+ripalm.line_search                                   15.617        209.326     35
+aten::add                                            15.372         15.372   1493
+aten::cat                                            14.682         14.682    361
+aten::linalg_vector_norm                             14.401         14.594    151
+aten::copy_                                          11.556         11.556    474
+aten::fill_                                           6.840          6.840    423
+aten::as_strided                                      4.661          4.661   3696
+ripalm.inexact_check                                  4.283         27.355     40
+
+paper_largest_dimension: mp-ripALM d=50 m=100000 peak=529.6 MiB
+event                                           self CUDA ms  total CUDA ms  count
+aten::_local_scalar_dense                           103.922        103.922    411
+aten::mul                                            76.114         76.114   4507
+aten::cat                                            38.740         38.740    635
+aten::nonzero                                        38.337         39.752    170
+aten::sub                                            36.017         36.017   1633
+aten::sum                                            29.313         32.846   1745
+aten::where                                          28.450         30.292    728
+ripalm.line_search                                   27.329        354.728     56
+aten::add                                            26.128         26.128   2599
+aten::copy_                                          25.211         25.211    780
+aten::div                                            21.148         21.148   1386
+aten::fill_                                          18.592         18.592    711
+aten::linalg_vector_norm                             10.654         11.011    265
+aten::mm                                             10.622         10.627     56
+aten::as_strided                                      8.077          8.077   6334
+
+hessian_heavier: ripALM d=500 m=5000 peak=568.3 MiB
+event                                           self CUDA ms  total CUDA ms  count
+aten::linalg_cholesky_ex                             69.663         70.573     46
+aten::_local_scalar_dense                            68.755         68.755    285
+aten::mul                                            41.312         41.312   2773
+aten::div                                            34.073         34.073    799
+aten::nonzero                                        29.555         30.693    138
+aten::where                                          24.172         25.193    404
+aten::sub                                            23.962         23.962   1033
+aten::add                                            18.659         18.659   1550
+aten::copy_                                          17.651         17.651    623
+aten::cat                                            15.689         15.689    372
+ripalm.line_search                                   15.117        210.410     46
+aten::sum                                            14.800         17.347   1133
+aten::fill_                                           9.009          9.009    485
+ripalm.inexact_check                                  7.920         39.178     53
+aten::mm                                              7.546          7.555     46

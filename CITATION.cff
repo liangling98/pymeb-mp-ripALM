@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use PyMEB, please cite the accompanying paper."
+title: "PyMEB: ripALM solvers for minimum enclosing ball problems"
+type: software
+version: 0.1.0
+date-released: 2026-09-13
+authors:
+  - family-names: Liang
+    given-names: Ling
+    orcid: "https://orcid.org/0000-0003-0671-9561"
+    email: liang.ling@u.nus.edu
+  - family-names: Yang
+    given-names: Lei
+    orcid: "https://orcid.org/0000-0001-9979-8371"
+    email: yanglei39@mail.sysu.edu.cn
+preferred-citation:
+  type: article
+  title: "Mixed-Precision GPU Acceleration for Large-Scale Minimum Enclosing Ball Problems"
+  year: 2026
+  authors:
+    - family-names: Liang
+      given-names: Ling
+    - family-names: Yang
+      given-names: Lei
+

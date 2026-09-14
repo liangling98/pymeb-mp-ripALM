@@ -1,0 +1,222 @@
+[
+  {
+    "d": 100,
+    "m": 1000,
+    "solver": "ripALM",
+    "elapsed_sec": 0.1983474000003298,
+    "max_violation": 4.1097791836364195e-11,
+    "radius": 397.0187671772635,
+    "kept": null,
+    "refinements": null,
+    "error": null
+  },
+  {
+    "d": 100,
+    "m": 1000,
+    "solver": "mixed ripALM",
+    "elapsed_sec": 0.15163170000005266,
+    "max_violation": 1.7621459846850485e-11,
+    "radius": 397.0187671772686,
+    "kept": 62,
+    "refinements": 0,
+    "error": null
+  },
+  {
+    "d": 100,
+    "m": 5000,
+    "solver": "ripALM",
+    "elapsed_sec": 0.09560770000007324,
+    "max_violation": 3.0524915928253904e-11,
+    "radius": 404.09180570516634,
+    "kept": null,
+    "refinements": null,
+    "error": null
+  },
+  {
+    "d": 100,
+    "m": 5000,
+    "solver": "mixed ripALM",
+    "elapsed_sec": 0.09445830000004207,
+    "max_violation": 4.126832209294662e-11,
+    "radius": 404.0918057051672,
+    "kept": 146,
+    "refinements": 0,
+    "error": null
+  },
+  {
+    "d": 500,
+    "m": 1000,
+    "solver": "ripALM",
+    "elapsed_sec": 0.18027639999991152,
+    "max_violation": 1.9326762412674725e-12,
+    "radius": 748.5896502251609,
+    "kept": null,
+    "refinements": null,
+    "error": null
+  },
+  {
+    "d": 500,
+    "m": 1000,
+    "solver": "mixed ripALM",
+    "elapsed_sec": 0.1726739999999154,
+    "max_violation": 3.410605131648481e-13,
+    "radius": 748.5896502251625,
+    "kept": 185,
+    "refinements": 0,
+    "error": null
+  },
+  {
+    "d": 500,
+    "m": 5000,
+    "solver": "ripALM",
+    "elapsed_sec": 0.6803807999999663,
+    "max_violation": 1.2505552149377763e-12,
+    "radius": 753.9522469228133,
+    "kept": null,
+    "refinements": null,
+    "error": null
+  },
+  {
+    "d": 500,
+    "m": 5000,
+    "solver": "mixed ripALM",
+    "elapsed_sec": 0.3634429000003365,
+    "max_violation": 3.069544618483633e-12,
+    "radius": 753.9522469228139,
+    "kept": 561,
+    "refinements": 0,
+    "error": null
+  },
+  {
+    "d": 1000,
+    "m": 1000,
+    "solver": "ripALM",
+    "elapsed_sec": 0.4872997000002215,
+    "max_violation": 2.2737367544323206e-13,
+    "radius": 1014.6641855239819,
+    "kept": null,
+    "refinements": null,
+    "error": null
+  },
+  {
+    "d": 1000,
+    "m": 1000,
+    "solver": "mixed ripALM",
+    "elapsed_sec": 0.40320500000007087,
+    "max_violation": 5.684341886080801e-13,
+    "radius": 1014.6641855239816,
+    "kept": 252,
+    "refinements": 0,
+    "error": null
+  },
+  {
+    "d": 1000,
+    "m": 5000,
+    "solver": "ripALM",
+    "elapsed_sec": 1.1707593999999517,
+    "max_violation": 3.410605131648481e-13,
+    "radius": 1022.8463338816803,
+    "kept": null,
+    "refinements": null,
+    "error": null
+  },
+  {
+    "d": 1000,
+    "m": 5000,
+    "solver": "mixed ripALM",
+    "elapsed_sec": 0.4686792000002242,
+    "max_violation": 4.547473508864641e-13,
+    "radius": 1022.84633388168,
+    "kept": 741,
+    "refinements": 0,
+    "error": null
+  },
+  {
+    "d": 5000,
+    "m": 1000,
+    "solver": "ripALM",
+    "elapsed_sec": 11.484369299999798,
+    "max_violation": 4.547473508864641e-13,
+    "radius": 2129.602777976284,
+    "kept": null,
+    "refinements": null,
+    "error": null
+  },
+  {
+    "d": 5000,
+    "m": 1000,
+    "solver": "mixed ripALM",
+    "elapsed_sec": 5.538724999999886,
+    "max_violation": 9.094947017729282e-13,
+    "radius": 2129.6027779762835,
+    "kept": 613,
+    "refinements": 0,
+    "error": null
+  },
+  {
+    "d": 5000,
+    "m": 5000,
+    "solver": "ripALM",
+    "elapsed_sec": 15.533058900000015,
+    "max_violation": 4.547473508864641e-13,
+    "radius": 2137.797829004389,
+    "kept": null,
+    "refinements": null,
+    "error": null
+  },
+  {
+    "d": 5000,
+    "m": 5000,
+    "solver": "mixed ripALM",
+    "elapsed_sec": 7.56611920000023,
+    "max_violation": 4.547473508864641e-13,
+    "radius": 2137.797829004389,
+    "kept": 2529,
+    "refinements": 0,
+    "error": null
+  },
+  {
+    "d": 10000,
+    "m": 1000,
+    "solver": "ripALM",
+    "elapsed_sec": 79.60108949999994,
+    "max_violation": 9.094947017729282e-13,
+    "radius": 2972.365218710152,
+    "kept": null,
+    "refinements": null,
+    "error": null
+  },
+  {
+    "d": 10000,
+    "m": 1000,
+    "solver": "mixed ripALM",
+    "elapsed_sec": 31.000439800000095,
+    "max_violation": 9.094947017729282e-13,
+    "radius": 2972.365218710152,
+    "kept": 811,
+    "refinements": 0,
+    "error": null
+  },
+  {
+    "d": 10000,
+    "m": 5000,
+    "solver": "ripALM",
+    "elapsed_sec": 281.3371978,
+    "max_violation": 9.094947017729282e-13,
+    "radius": 2981.449128131804,
+    "kept": null,
+    "refinements": null,
+    "error": null
+  },
+  {
+    "d": 10000,
+    "m": 5000,
+    "solver": "mixed ripALM",
+    "elapsed_sec": 96.66362750000008,
+    "max_violation": 9.094947017729282e-13,
+    "radius": 2981.449128131804,
+    "kept": 3561,
+    "refinements": 0,
+    "error": null
+  }
+]
